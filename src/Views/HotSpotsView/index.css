@@ -1,0 +1,15 @@
+.chart {
+  margin: 10px;
+  padding: 3px;
+}
+.linkChart {
+  height: 260px;
+}
+.areaDiff {
+  display: flex;
+}
+.areaDiff .diff {
+  height: 160px;
+  margin: 5px;
+  padding: 0 5px;
+}

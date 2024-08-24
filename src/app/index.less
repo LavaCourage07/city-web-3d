@@ -1,0 +1,40 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .menu {
+        background-color:  rgba(0, 0, 0, 0.7);
+        color: white;
+
+        li:hover {
+            color: #ff9f31;
+            span {
+                color: #ff9f31;
+            }
+            border-bottom-color:#ff9f31;
+        } 
+        li:hover::after {
+            border-bottom-color:#ff9f31 !important;
+        }
+
+
+    
+        .ant-menu-item-selected {
+            color: #ff9f31;
+        }
+
+        .ant-menu-item-selected::after {
+            border-bottom-color:#ff9f31;
+            color: #ff9f31;
+        }
+    }
+}
+
+.mainContent {
+    position: fixed;
+    left: 10px;
+    top: 60px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,15 @@
+.heatMap {
+  width: 320px;
+  height: 300px;
+}
+.facilityTitile {
+  margin-top: 12px !important;
+  color: #ffffff !important;
+}
+.facilityTitile div {
+  color: #ffffff !important;
+  text-align: center;
+}
+.facilityCard {
+  margin: 10px 0;
+}
